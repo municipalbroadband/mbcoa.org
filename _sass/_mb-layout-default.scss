@@ -1,0 +1,22 @@
+.mb-default-bg {
+  border-top: 10px solid $grey-dark;
+  padding-top: 9rem;
+}
+
+.mb-default {
+  .mb-logo {
+    @include block;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .mb-logo-break {
+    display: block;
+  }
+}
+
+.mb-default-category h2 {
+  padding-top: 1.5rem;
+}

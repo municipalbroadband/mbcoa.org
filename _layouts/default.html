@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    <section class="section mb-default-bg">
+      <div class="container">
+        <div class="mb-default">
+          <h1 class="title mb-logo">
+            <span class="mb-logo-break">Municipal Broadband</span>
+            <span class="mb-logo-break">Coalition of America</span>
+          </h1>
+        </div>
+      </div>
+    </section>
+    {{ content }}
+    <section class="section">
+      <hr>
+      <div class="container">
+        <ul>
+          <li><a href="{{ '/terms.html' | prepend: site.baseurl }}">Terms of Use</a></li>
+          <li><a href="{{ '/privacy.html' | prepend: site.baseurl }}">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </section>
+  </body>
+</html>
